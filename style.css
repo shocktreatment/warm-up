@@ -161,12 +161,17 @@ main-img {
 }
 @media (min-width: 767px) {
   .head-img {
-    width: 30%;
+    width: 40%;
   }
   .head {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+@media (min-width: 1199px) {
+  .head-img {
+    width: 30%;
   }
 }
 .head-box {
