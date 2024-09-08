@@ -504,7 +504,11 @@ main-img {
     rotate: 180deg;
   }
 }
-
+@media (min-width: 530px) {
+  .answer {
+    font-size: 18px;
+  }
+}
 @media (min-width: 767px) {
   .question-list {
     padding: 0 30px;
