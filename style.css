@@ -161,7 +161,7 @@ main-img {
 }
 @media (min-width: 767px) {
   .head-img {
-    width: 40%;
+    width: 30%;
   }
   .head {
     display: flex;
@@ -208,7 +208,7 @@ main-img {
 @media (min-width: 530px) {
   .head-text {
     width: 400px;
-    font-size: 28px;
+    font-size: 22px;
   }
 }
 .head-btn,
@@ -466,12 +466,15 @@ main-img {
   }
 }
 .question-item {
-  margin-bottom: 10px;
-  padding: 3px 0;
+  padding: 7px 0;
+}
+.question-item:first-child {
+  border-top: 0.2px solid #2217129d;
 }
 .question__triger {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .question__triger-title {
   font-weight: normal;
