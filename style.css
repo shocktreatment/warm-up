@@ -578,3 +578,61 @@ main-img {
 .bold {
   font-weight: 600;
 }
+
+.oferta-box {
+  /* background-color: #ece6d3; */
+  padding: 15px;
+  padding-bottom: 25px;
+}
+.oferta-link {
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  /* border: 0.2px solid #221712; */
+  color: #fff;
+  color: #ece6d3;
+  /* background-color: #fff; */
+  width: 200px;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+
+
+.oferta {
+  padding: 50px;
+  margin: 0 auto;
+  background-color: #fff;
+  font-size: 16px;
+  font-family: Montserrat;
+}
+.oferta-title {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.doc-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 22px;
+  margin-top: 22px;
+}
+.doc-text {
+  margin-bottom: 15px;
+}
+.fop-text {
+  font-size: 14px;
+}
+
+
+.close-btn {
+  width: 40px;
+  display: block;
+}
+@media (min-width: 767px) {
+  .close-btn {
+    width: 30px;
+  }
+}
