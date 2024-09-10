@@ -597,21 +597,26 @@ main-img {
   text-align: center;
 }
 
-
-
-
 .oferta {
-  padding: 50px;
+  padding: 20px;
   margin: 0 auto;
   background-color: #fff;
   font-size: 16px;
   font-family: Montserrat;
 }
 .oferta-title {
-  font-size: 28px;
+  font-size: 25px;
   text-align: center;
   margin-bottom: 30px;
   font-weight: 500;
+}
+@media (min-width: 767px) {
+  .oferta {
+    padding: 50px;
+  }
+  .oferta-title {
+    font-size: 28px;
+  }
 }
 .doc-title {
   font-weight: 600;
@@ -626,13 +631,12 @@ main-img {
   font-size: 14px;
 }
 
-
 .close-btn {
-  width: 40px;
+  width: 35px;
   display: block;
 }
 @media (min-width: 767px) {
   .close-btn {
-    width: 30px;
+    width: 25px;
   }
 }
