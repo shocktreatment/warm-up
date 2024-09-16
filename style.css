@@ -303,19 +303,26 @@ main-img {
   }
   .imgs {
     display: flex;
-    padding: 0 40px;
+    padding: 0 10px;
     padding-bottom: 30px;
     border-top: 1px solid #22171254;
     padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
   }
   .main-img {
     width: 40%;
   }
   .about-img {
-    width: 40%;
-    margin: 0 auto;
+    width: 45%;
+    /* margin: 0 auto; */
   }
 }
+/* .about-img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+} */
 .about-course_title {
   font-size: 26px;
   font-weight: 700;
@@ -447,8 +454,8 @@ main-img {
 }
 
 .section4 {
-  padding-top: 30px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .buy-img {
   max-width: 80%;
@@ -462,7 +469,7 @@ main-img {
   /* background-color: #c4661f; */
   background-color: #da4839;
   color: #ece6d3;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   /* margin-top: 25px; */
 }
 @media (min-width: 600px) {
@@ -514,7 +521,7 @@ main-img {
 }
 @media (min-width: 530px) {
   .answer {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 @media (min-width: 767px) {
@@ -536,7 +543,7 @@ main-img {
 }
 .question__triger-title {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
 }
 .span {
   /* font-size: 20px; */
@@ -640,4 +647,10 @@ main-img {
   .close-btn {
     width: 20px;
   }
+}
+
+
+.red {
+  background-color: #da4839;
+  border: none;
 }
