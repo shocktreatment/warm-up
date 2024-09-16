@@ -319,6 +319,14 @@ main-img {
     /* margin: 0 auto; */
   }
 }
+@media (min-width: 1000px) {
+  .main-img {
+    width: 30%;
+  }
+  .about-img {
+    width: 35%;
+  }
+}
 /* .about-img {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -648,7 +656,6 @@ main-img {
     width: 20px;
   }
 }
-
 
 .red {
   background-color: #da4839;
