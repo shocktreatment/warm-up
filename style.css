@@ -296,6 +296,10 @@ main-img {
     font-size: 20px;
   }
 }
+.about-img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 @media (min-width: 767px) {
   .section1 {
     width: 70%;
@@ -317,6 +321,7 @@ main-img {
   .about-img {
     width: 45%;
     /* margin: 0 auto; */
+    padding: 0;
   }
 }
 @media (min-width: 1000px) {
@@ -327,10 +332,7 @@ main-img {
     width: 35%;
   }
 }
-/* .about-img {
-  padding-top: 20px;
-  padding-bottom: 20px;
-} */
+
 .about-course_title {
   font-size: 26px;
   font-weight: 700;
@@ -658,6 +660,8 @@ main-img {
 }
 
 .red {
-  background-color: #da4839;
+  /* background-color: #da4839; */
   border: none;
+  border: 0.2px solid #da4839;
+  border: 0.1px solid #221712;
 }
